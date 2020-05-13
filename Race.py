@@ -86,6 +86,8 @@ class Race():
         self.track = Track(legs)
         self.racers = []
         self.winner = -1
+        # text_turtle used for displaying winner name
+        # not yet impl.
         self.text_turtle = Turtle()
         self.text_turtle.hideturtle()
         self.text_turtle.penup()
